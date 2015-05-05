@@ -1,0 +1,3 @@
+Random Card Sorter
+
+This is an aruino project made for a creative automata course. The idea behind the project was to represent the process of sorting cards using insertion sort. This project uses 2 arduinos - one of which acts as a card dealer(random card generator) and the second one acts as a sorter and controls the RGB LED display unit. For instructions of wiring the display unit refer to - https://learn.adafruit.com/32x16-32x32-rgb-led-matrix/connecting-with-jumper-wires. The only other connection require is a jumper cable from TX of the generator board to the RX of the sorter board. Upload Card_write to the sorter board and Card_read2 to the generator board.
